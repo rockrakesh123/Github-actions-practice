@@ -1,5 +1,10 @@
 name : Building-blocks
-on: push
+on:
+  push:
+    paths:
+    - 'READ.MD'
+    branches :
+      - main   
 
 jobs :
   echo-hello:
