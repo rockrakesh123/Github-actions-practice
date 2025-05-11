@@ -17,4 +17,4 @@ jobs :
            exit 0 
   
       - name: Say-bye
-        run: echo "Good-world
+        run: echo "Good-world"
