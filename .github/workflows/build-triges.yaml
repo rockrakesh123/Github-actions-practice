@@ -1,0 +1,16 @@
+name : Building-blocks-trigers-1
+on:
+  push:
+    paths:
+    - 'README.md'
+    branches :
+      - main   
+
+jobs :
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show the trigger
+        run: echo " I have been by ${{github.event_name}}
+      
+  
