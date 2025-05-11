@@ -2,7 +2,7 @@ name : Building-blocks
 on:
   push:
     paths:
-    - 'READ.MD'
+    - 'README.md'
     branches :
       - main   
 
