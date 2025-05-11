@@ -11,10 +11,10 @@ jobs :
   Goo-bye:
     runs-on: ubuntu-latest
     steps:
-      - name: Say-bye
+      - name: Suceess-full-sterp
         run: |
            echo " I will sucess "
-           exit 1  
+           exit 0 
   
       - name: Say-bye
         run: echo "Good-world
